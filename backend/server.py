@@ -4,5 +4,5 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 @app.route('/image')
-def hello_world():
-    return 'IMG_101_bad_5_M.JPEG'
+def send_img():
+    return "/Users/maxbentata/NODE_playground/wasawski/backend/imgs/IMG_12_good_0_L.JPEG"
